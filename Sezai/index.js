@@ -1,19 +1,18 @@
 // 1.
-let freeTime = "I can walk in the park all day!"
+let freeTime = "I can walk in the park all day!";
 console.log("freeTime ==> ", freeTime.slice(18, 23));
 
-// 2. 
-let lang = "JavaScript"
+// 2.
+let lang = "JavaScript";
 console.log("language ==> ", lang.slice(3, 6));
 
-//3. 
+//3.
 let shoe = "nice shoes";
-console.log("nice shoes ==>", shoe.indexOf("l"));
-console.log("nice shoes ==>", shoe.indexOf("n"));
+console.log("nice shoes ==>", shoe.includes("l"), shoe.includes("n"));
 
-//4. 
+//4.
 let name = "Sezai";
 let city = "MG";
-let job = "WebDev"
-let person = `My name is ${name} and i am from ${city}. I am a ${job}.`
-console.log("person ==>", person)
+let job = "WebDev";
+let person = `My name is ${name} and i am from ${city}. I am a ${job}.`;
+console.log("person ==>", person);
