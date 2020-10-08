@@ -21,13 +21,5 @@ console.log(
 let firstName = "Joyce";
 let city = "Düsseldorf";
 let hobby = "cooking";
-console.log(
-  "My name is " +
-    firstName +
-    ". " +
-    "I live in " +
-    city +
-    " and I like " +
-    hobby +
-    "."
-);
+let me = `My name is ${firstName}. I live in ${city} and I like ${hobby}.`;
+console.log(me);
