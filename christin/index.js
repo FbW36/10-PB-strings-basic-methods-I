@@ -16,8 +16,11 @@ console.log("print letter ==>", str.slice(3, 6)); // aSc
 
 let shoes = "nice shoes";
 
-console.log(shoes.includes("l")); // false
-console.log(shoes.includes("n")); // true
+console.log(shoes.includes("l") || shoes.includes("n")); // true 
+/
+ // Separate the OR requests
+
+
 
 // 4 Create 3 different variables about yourself, using strings as values, i.e, let firstName = "Maria"; let city = "Berlin", etc.Print a sentence to the console using the variables and string interpolation, i.e., "My name is Maria. I live in Berlin and I am a teacher".
 
