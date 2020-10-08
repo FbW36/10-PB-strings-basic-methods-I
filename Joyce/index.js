@@ -9,17 +9,12 @@ console.log(value.slice(3, 6));
 // 3
 let sentence = "nice schoes";
 console.log(
-  'the sentence "nice shoes" contains the letter l ==> ',
-  sentence.includes("l")
-);
-console.log(
-  'the sentence "nice shoes" contains the letter n ==>',
-  sentence.includes("n")
+  'the sentence "nice shoes" contains the letter l or n ==> ',
+  sentence.includes("l") || sentence.includes("n")
 );
 
 // 4
 let firstName = "Joyce";
 let city = "Düsseldorf";
 let hobby = "cooking";
-let me = `My name is ${firstName}. I live in ${city} and I like ${hobby}.`;
-console.log(me);
+console.log(`My name is ${firstName}. I live in ${city} and I like ${hobby}.`);
